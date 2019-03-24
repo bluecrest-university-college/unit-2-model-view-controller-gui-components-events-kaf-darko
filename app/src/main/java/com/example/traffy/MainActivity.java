@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         trafic = findViewById(R.id.traffic);
         runButton = findViewById(R.id.runButton);
 
+
         runButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
